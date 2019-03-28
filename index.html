@@ -29,7 +29,7 @@
         $gauge = jQuery( '#gauge' );
         
         for ( var perf_size in perforations ) {
-          $gauge.append( '<div class="perforation" data-perforation="'+perf_size+'"><span class="label">'+perforations[ perf_size ]+'</span></div>' );
+          $gauge.prepend( '<div class="perforation" data-perforation="'+perf_size+'"><span class="label">'+perforations[ perf_size ]+'</span></div>' );
         }
         
         $gauge.find( '.perforation' ).each( function() {
