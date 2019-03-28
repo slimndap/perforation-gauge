@@ -23,23 +23,23 @@
   background-size: calc( 100% / 13 ) 8px;
 }
 .gauge .perforation-12-5 {
-  background-size: calc( 256.7px / ( 12.5 * 2 ) ) calc( 256.7px / ( 12.5 * 2 ) );
+  background-size: calc( 100% / 12.5 ) 8px;
 }
 .gauge .perforation-12-25 {
-  background-size: calc( 256.7px / ( 12.25 * 2 ) ) calc( 256.7px / ( 12.25 * 2 ) );
+  background-size: calc( 100% / 12.25 ) 8px;
 }
 .gauge .perforation-12 {
-  background-size: calc( 256.7px / ( 12 * 2 ) ) calc( 256.7px / ( 12 * 2 ) );
+  background-size: calc( 100% / 12 ) 8px;
 }
 .gauge .perforation-11-75 {
-  background-size: calc( 256.7px / ( 11.75 * 2 ) ) calc( 256.7px / ( 11.75 * 2 ) );
+  background-size: calc( 100% / 11.75 ) 8px;
 }
 .gauge .perforation-11 {
-  background-size: calc( 256.7px / ( 11 * 2 ) ) calc( 256.7px / ( 11 * 2 ) );
+  background-size: calc( 100% / 11 ) 8px;
 }
 .gauge .perforation-10 {
-  background-size: calc( 256.7px / ( 10 * 2 ) ) calc( 256.7px / ( 10 * 2 ) );
+  background-size: calc( 100% / 10 ) 8px;
 }
 .gauge .perforation-9 {
-  background-size: calc( 256.7px / ( 9 * 2 ) ) calc( 256.7px / ( 9 * 2 ) );
+  background-size: calc( 100% / 9 ) 8px;
 }
