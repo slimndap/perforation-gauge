@@ -13,6 +13,9 @@
 .gauge .perforation .label {
   flex: 0 0 20px;
   background-color: white;
+  font-size: 8px;
+  line-height: 16px;
+  text-align: right;
 }
 .gauge .perforation-13 {
   background-size: calc( 256px / ( 13 * 2 ) ) calc( 256px / ( 13 * 2 ) );
