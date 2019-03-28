@@ -15,7 +15,9 @@
   font-size: 8px;
   line-height: 18px;
   position: absolute;
-  left: calc( 100% + 4px);
+  left: 100%;
+  background-color: white;
+  padding-left: 4px;
 }
 #gauge .perforation .dot {
   background: radial-gradient(black 50%, transparent 50%);
