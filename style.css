@@ -19,7 +19,7 @@
   text-align: right;
 }
 .gauge .perforation-13 {
-  background-size: calc( 256.7px / ( 13 * 2 ) ) calc( 256.7px / ( 13 * 2 ) );
+  background-size: 7.69%;
 }
 .gauge .perforation-12-5 {
   background-size: calc( 256.7px / ( 12.5 * 2 ) ) calc( 256.7px / ( 12.5 * 2 ) );
