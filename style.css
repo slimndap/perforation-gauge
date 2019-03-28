@@ -22,5 +22,6 @@
   background-size: 80% 8px;
   background-repeat: no-repeat;
   background-position: center center;
+  flex-shrink: 0;
 }
 
