@@ -2,8 +2,11 @@
   width: calc( 256px + 20px );
 }
 .gauge .perforation {
-  height: 10px;
+  height: 16px;
   background: radial-gradient(black 50%, transparent 50%);
+  background-repeat: repeat-x;
+  background-position: 0 4px;
+  border-top: 1px solid black;
   display: flex;
   justify-content: flex-end;
 }
