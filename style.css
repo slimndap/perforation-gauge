@@ -1,5 +1,6 @@
 .gauge {
-  width: 128.35px;
+  width: calc( (326 / 2 ) * 1.574px );
+  margin: 0 auto;
 }
 .gauge .perforation {
   height: 16px;
