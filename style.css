@@ -6,5 +6,5 @@
 }
 .gauge .perforation-13 {
   background: radial-gradient(black 50%, transparent 50%);
-  background-size: 9.85px 9.85px;
+  background-size: calc( 256px / 13 * 2 ) calc( 256px / 13 * 2 );
 }
