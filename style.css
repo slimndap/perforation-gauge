@@ -3,8 +3,20 @@
 }
 .gauge .perforation {
   height: 10px;
+  background: radial-gradient(black 50%, transparent 50%);
 }
 .gauge .perforation-13 {
-  background: radial-gradient(black 50%, transparent 50%);
-  background-size: calc( 256px / 13 * 2 ) calc( 256px / 13 * 2 );
+  background-size: calc( 256px / ( 13 * 2 ) ) calc( 256px / ( 13 * 2 ) );
+}
+.gauge .perforation-12 {
+  background-size: calc( 256px / ( 12 * 2 ) ) calc( 256px / ( 12 * 2 ) );
+}
+.gauge .perforation-11 {
+  background-size: calc( 256px / ( 11 * 2 ) ) calc( 256px / ( 11 * 2 ) );
+}
+.gauge .perforation-10 {
+  background-size: calc( 256px / ( 10 * 2 ) ) calc( 256px / ( 10 * 2 ) );
+}
+.gauge .perforation-9 {
+  background-size: calc( 256px / ( 9 * 2 ) ) calc( 256px / ( 9 * 2 ) );
 }
