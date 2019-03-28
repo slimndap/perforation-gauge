@@ -1,9 +1,15 @@
 .gauge {
-  width: 256px;
+  width: calc( 256px + 20px );
 }
 .gauge .perforation {
   height: 10px;
   background: radial-gradient(black 50%, transparent 50%);
+  display: flex;
+  justify-content: flex-end;
+}
+.gauge .perforation .label {
+  flex: 0 0 20px;
+  background-color: white;
 }
 .gauge .perforation-13 {
   background-size: calc( 256px / ( 13 * 2 ) ) calc( 256px / ( 13 * 2 ) );
