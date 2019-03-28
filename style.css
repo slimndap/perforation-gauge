@@ -1,11 +1,11 @@
-.gauge {
+n.gauge {
   width: 256px;
   background-color: black;
 }
-.gauge > * {
+.gauge .perforation {
   height: 10px;
 }
-.gauge .13 {
+.gauge .perforation-13 {
   background: radial-gradient(black 15%, transparent 16%);
   background-size: 10px 10px;
 }
