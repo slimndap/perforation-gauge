@@ -2,15 +2,33 @@
   <head>
     <link type="text/css" rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
     <script>
       document.ontouchmove = function (e) {
         e.preventDefault();
       }
+      
+      var perforations = [];
+      perforations[ 13 ] = '13';
+      perforations[ 12.5 ] = '12&#189;';
+      perforations[ 12.25 ] = '12&#188;';
+      perforations[ 12 ] = '12';
+      
+      jQuery( function() {
+        $gauge = jQuery( '#gauge' );
+        
+        for ( var perf_size in perforations ) {
+          $gauge.append( '<div class="perforation perforation-'+perf_size+'<span class="label">'+perforations[ perf_size ]+'</span></div>';
+        }
+      });
+      
     </script>
   </head>
   <body>
     <h1>Hallo</h1> 
-    <div class="gauge">
+    <div id="gauge">
       <div class="perforation perforation-13"><span class="label">13</span></div>
       <div class="perforation perforation-12-5"><span class="label">12&#189;</span></div>
       <div class="perforation perforation-12-25"><span class="label">12&#188;</span></div>
