@@ -24,6 +24,9 @@
 .gauge .perforation-12-5 {
   background-size: calc( 256px / ( 12.5 * 2 ) ) calc( 256px / ( 12.5 * 2 ) );
 }
+.gauge .perforation-12-25 {
+  background-size: calc( 256px / ( 12.25 * 2 ) ) calc( 256px / ( 12.25 * 2 ) );
+}
 .gauge .perforation-12 {
   background-size: calc( 256px / ( 12 * 2 ) ) calc( 256px / ( 12 * 2 ) );
 }
