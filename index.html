@@ -26,7 +26,7 @@
         $gauge.find( '.perforation' ).each( function() {
           var perforation = jQuery( this ).data( 'perforation' );
           for( var i = 0; i < Math.ceil( perforation / 100 ); i++ ) {
-            jQuery( this ).append( '<span class="dot"></span>' );
+            jQuery( this ).append( '<span class="dot" style="flex-basis: calc( 100% / '+( perforation / 100 )+');"></span>' );
           }
         });
       });
