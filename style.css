@@ -9,6 +9,7 @@
   border-top: 1px solid black;
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 8px;
 }
 .gauge .perforation .label {
   flex: 0 0 20px;
