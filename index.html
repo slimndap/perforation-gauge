@@ -2,6 +2,11 @@
   <head>
     <link type="text/css" rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      document.ontouchmove = function (e) {
+        e.preventDefault();
+      }
+    </script>
   </head>
   <body>
     <h1>Hallo</h1> 
