@@ -20,8 +20,15 @@
         $gauge = jQuery( '#gauge' );
         
         for ( var perf_size in perforations ) {
-          $gauge.append( '<div class="perforation perforation-'+perf_size+'"><span class="label">'+perforations[ perf_size ]+'</span></div>' );
+          $gauge.append( '<div class="perforation" data-perforation="'+perf_size+'"><span class="label">'+perforations[ perf_size ]+'</span></div>' );
         }
+        
+        $gauge.find( '.perforation' ).each( function() {
+          var perforation = jQuery( this ).data( 'perforation' );
+          for( var i = 0; i < ceil( perforation / 100 ); i++ ) {
+            jQuery( this ).append( '<span class="dot"></span>' );
+          }
+        });
       });
       
     </script>
